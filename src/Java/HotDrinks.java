@@ -4,14 +4,12 @@ public class HotDrinks {   // это родительский класс
     private String name; //  у него есть имя
     private int volume; // у него есть объем
 
-    public HotDrinks(String name) {
+    public HotDrinks(String name, int volume) {
 
         this.name=name;
-    }
-    public HotDrinks(int volume) {
         this.volume = volume;
-
     }
+
     public void setName(String name){  // задать имя напитка
     this.name = name;
     }
