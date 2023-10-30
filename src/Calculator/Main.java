@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int num1 = ;
-        int num2 = ;
-        char operation = getOperation();
-        int result = Calculator(num1, num2,operation);
-        System.out.println("Результат операции: "+result);
+        double num1 = 7.7 ;
+        double num2 = 5.5 ;
+        Calculator c = new Calculator();
+
+        System.out.println("Результат операции: "+ c.add(new Complex(num1, 0), new Complex(num2, 0)));
     }
 
 

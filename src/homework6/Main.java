@@ -1,7 +1,7 @@
 package homework6;
 
-import homework4.ChemistryTeacher;
-import homework4.ShopTeacher;
+import homework6.ChemistryTeacher;
+import homework6.ShopTeacher;
 
 public class Main {
     public static void main(String[] args) {
